@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Plant Disease Detection</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/css/Alluvial.css" />
+		<noscript><link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+		<!-- Bootstrap CSS -->
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<style>
+		*{
+		margin:0;
+		padding:0;
+		font-family: 'Josefin Sans', sans-serif;
+		}
+		html,
+		body,
+		header,
+		#intro {
+		height: 100%;
+		}
+		img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		}
+		</style>
+		
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			  <a class="navbar-brand" href="/home">Plant Disease Detection</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			  </button>
+			  
+			  <a style="margin-left: 75%;" class="navbar-brand" href="/login">Sign-Out</a>
+			</nav>
+			<!--Mask-->
+			<div id="intro" class="container-fluid view ">
+			  <h1 class="text-center text-capitalize pt-5">Disease Type : Late Wilt of Maize</h1>
+			  
+			  <hr class="w-75 mx-auto pt-5">
+			  
+				<div >
+					<p>Symptoms:-</p> <br> <br>
+					<p>Symptoms are usually observed during or after  the flowering stage and vary in intensity depending on the variety of maize and weather conditions</p>
+					<p>Leaves in the lower part of the plant start to wilt and turn dull Green. </p>
+					<p>Graduallythe ,they become dry and start to roll inwards,while the symptoms progress upward.</p>
+                    <p>Ears of affected plants do not grow properly, husks may have lesions and grains development is impaired.</p>
+						  <br>
+						
+						  <p>Treatments:-</p> <br> 
+                          <p>Several Solution based on microorganisms have been tested in laborateries to treat and reduce the incidence of this pathogen</p>
+						  <p>Always consider an intigrated approach with preventive measures together with biological treatments.</p>
+						  <p>As it is a soil and seedborne disease, it is recommended to purchase seeds from a certified source. </p>
+  
+				  </h1>
+				</div>
+				<hr class="w-75 mx-auto pt-5">
+				<!--<h1 style="font-size: large; font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(23, 20, 220);"  >We Analysed the Disease Data in Jupyter Notebook and build a model for predicting the user input to predict the disease!</h1>
+				-->
+			  </div>
+			</div>
+			<!--/.Mask-->
+		  </header>
+		  
+				
+
+			
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>

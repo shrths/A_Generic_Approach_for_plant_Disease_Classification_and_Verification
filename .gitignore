@@ -1,0 +1,5 @@
+#ignoring all .h5 files
+*.h5
+
+#ignoring input folder
+input/
