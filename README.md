@@ -1,0 +1,1 @@
+# A_Generic_Approach_for_plant_Disease_Classification_and_Verification
